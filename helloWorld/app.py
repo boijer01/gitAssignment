@@ -1,3 +1,3 @@
 print("hello_world.py")
-print("Moi")
-print("Hejsan världen!")
+answer = input("What is the capital of Finland? a) Turku b) Tampere c) Helsinki d) Espoo: ").strip().lower()
+print("Correct!" if answer == "c" else "Wrong! The correct answer is c)")
